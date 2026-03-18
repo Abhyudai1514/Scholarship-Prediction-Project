@@ -1,4 +1,4 @@
-# 🎓 Scholarship Eligibility Prediction API
+# 🎓 Scholarship Eligibility Prediction & Analysis API using Random Forest and FastAPI
 
 ## 📌 Problem Statement
 Educational institutions process large volumes of student applications, making scholarship eligibility evaluation time-consuming and inconsistent. This project aims to automate and improve the decision-making process using predictive analytics.
