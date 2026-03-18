@@ -37,7 +37,7 @@ The dataset contains student academic and demographic attributes such as:
 
 ## 🤖 Model
 - Algorithm: Random Forest Classifier  
-- Performance: **86% prediction accuracy**  
+- Performance: **90% prediction accuracy**  
 
 ---
 
