@@ -66,11 +66,10 @@ The model is deployed as a FastAPI application that:
 
 ## 📂 Project Structure
 
-project/
-├── README.md             # Project documentation
-├── Scholarship_Prediction.ipynb   # Data analysis and model training
-├── model.pkl             # Trained machine learning model
-├── app.py                # FastAPI application for prediction API
+1.README.md             # Project documentation
+2.Scholarship_Prediction.ipynb   # Data analysis and model training
+3.model.pkl             # Trained machine learning model
+4.app.py                # FastAPI application for prediction API
 
 ## ▶️ How to Run
 
