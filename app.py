@@ -8,7 +8,7 @@ class Prediction(BaseModel):
     feature3:float
 app=FastAPI()
 model=joblib.load("model.pkl")
-app.post("/predict")
+@app.post("/predict")
 def predict(request:Prediction):
     features = np.array([[request.feature1,request.feature2,request.feature3]])
     prediction = model.predict(features)
