@@ -35,4 +35,4 @@ def predict(request: Prediction):
     except Exception as e:
         # Print error in terminal for debugging
         print("ERROR:", e)
-        return {"error": str(e)}}
+        return {"error": str(e)}
