@@ -75,12 +75,78 @@ project/
 ├── app.py                        # FastAPI application for prediction API
 ```
 
-## ▶️ How to Run
+## ▶️ How to Run the Project Locally
 
-1. Clone the repository  
-2. Install dependencies  
-3. Run the FastAPI server  
-4. Send requests to the API endpoint  
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/scholarship-eligibility-prediction.git
+cd scholarship-eligibility-prediction
+```
+
+---
+
+### 2️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 3️⃣ Run the FastAPI server
+```bash
+python -m uvicorn app:app --reload
+```
+
+---
+
+### 4️⃣ Open API in browser
+
+Go to:
+```
+http://127.0.0.1:8000/docs
+```
+
+---
+
+## 🧪 How to Use the API
+
+### Endpoint:
+```
+POST /predict
+```
+
+### Sample Input:
+```json
+{
+  "feature1": 13,
+  "feature2": 12,
+  "feature3": 98.5
+}
+```
+
+---
+
+## 📊 Feature Description
+
+| Input Field | Description |
+|------------|------------|
+| feature1 | Encoded Country |
+| feature2 | Encoded Department |
+| feature3 | Exam Score |
+
+> Note: Country and Department values are label-encoded during training, so numerical values must be used.
+
+---
+
+## 🌐 Live API
+
+👉 https://scholarship-eligibility-prediction.onrender.com
+
+---
+
+## 📄 API Documentation
+
+👉 https://scholarship-eligibility-prediction.onrender.com/docs
 
 ---
 
